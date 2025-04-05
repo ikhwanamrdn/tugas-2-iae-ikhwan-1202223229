@@ -1,0 +1,179 @@
+/* =====================
+   FONT & BODY
+===================== */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 40px 0;
+  }
+  
+  /* =====================
+     CONTAINER
+  ===================== */
+  .container {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  /* =====================
+     HEADER
+  ===================== */
+  h1 {
+    text-align: center;
+    color: #1f2937;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+  
+  /* =====================
+     CARD STYLE
+  ===================== */
+  .card {
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    width: 100%;
+  }
+  
+  /* =====================
+     FORM INPUT
+  ===================== */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 10px;
+    flex: 1 1 30%;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  input:focus {
+    border-color: #3b82f6;
+  }
+  
+  /* =====================
+     BUTTON STYLE
+  ===================== */
+  button {
+    padding: 10px 16px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* =====================
+     LIST STYLE
+  ===================== */
+  #inventory-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #inventory-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9fafb;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  /* =====================
+     ITEM INFO
+  ===================== */
+  .item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .item-info strong {
+    font-size: 1rem;
+    color: #1f2937;
+  }
+  
+  .item-info .badge {
+    display: inline-block;
+    background-color: #e0f2fe;
+    color: #0369a1;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  
+  .item-info .stock {
+    font-size: 14px;
+    color: #4b5563;
+  }
+  
+  /* =====================
+     ITEM ACTIONS
+  ===================== */
+  .item-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  
+  #inventory-list li button {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #2563eb;
+  }
+  
+  #inventory-list li button:not(.edit-btn) {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  #inventory-list li button:not(.edit-btn):hover {
+    background-color: #dc2626;
+  }
+  
+  /* =====================
+     FOOTER
+  ===================== */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #6b7280;
+    font-size: 14px;
+    font-style: italic;
+  }  

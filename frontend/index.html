@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Inventaris Barang</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Aplikasi Inventaris Barang</h1>
+
+    <!-- Form Input -->
+    <div class="card">
+      <form id="item-form">
+        <input type="text" id="name-input" placeholder="Nama Barang" required>
+        <input type="number" id="stock-input" placeholder="Stok" required>
+        <input type="text" id="category-input" placeholder="Kategori" required>
+        <button type="submit">Tambah Barang</button>
+      </form>
+    </div>
+
+    <!-- Daftar Barang -->
+    <div class="card">
+      <ul id="inventory-list"></ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 1202223229 | Ikhwan Amiruddin
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
