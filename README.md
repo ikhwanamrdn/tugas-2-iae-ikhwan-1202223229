@@ -57,12 +57,19 @@ Aplikasi ini memungkinkan pengguna untuk:
 2. Jalankan file index.html di browser (klik dua kali atau pakai Live Server)
 3. Pastikan backend sudah aktif, agar Fetch API bisa mengambil data dari server
 
+---
+
 ## 👨‍💻 Perancang
-Nama: Ikhwan Amiruddin
-NIM: 1202223229
-Kelas: SI-46-02
+- Nama: Ikhwan Amiruddin
+- NIM: 1202223229
+- Kelas: SI-46-02
+
+---
 
 ## 📸 Screenshot
+### 1. Tampilan Aplikasi
 ![Tampilan Aplikasi](asset/1.png)
+### 2. Tampilan Edit
 ![Tampilan Edit](asset/2.png)
+### 3. Tampilan Delete
 ![Tampilan Delete](asset/3.png)
